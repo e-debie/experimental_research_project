@@ -14,8 +14,8 @@ for the ERP Arduino module
 #include <SoftwareSerial.h> // Library to use serial input and output
 
 // Define global variables
-int INT = 7; // Table of this integer
-int MAXVAL = 50; // Integer maximum result of calculation
+int INT = 4.5; // Table of this integer
+int MAXVAL = 100; // Integer maximum result of calculation
 char TOOHIGH = "Exceeded, quitting... "; // String displayed when max is exceeded
 const unsigned long BAUD_RATE = 9600;
 
@@ -44,6 +44,7 @@ void loop() {
     }
   } // end of for loop
   
+  Serial.println("Ready");
   while (1) { // This empty while loop will run indefinitely
   }
 } // end of main loop
