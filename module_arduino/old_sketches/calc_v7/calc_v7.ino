@@ -6,13 +6,13 @@
 const byte ROWS = 4; //four rows
 const byte COLS = 4; //four columns
 char keys[ROWS][COLS] = {
-  {'1', '2', '3', '+'},
-  {'4', '5', '6', '-'},
-  {'7', '8', '9', '*'},
-  {'^', '0', 'R', '/'}
+  {'1', '2'},
+  {'4', '5'},
+  {'7', '8'},
+  {'^', '0'}
 };
 byte rowPins[ROWS] = {39, 41, 43, 45}; //connect to the row pinouts of the keypad
-byte colPins[COLS] = {37, 35, 33, 31}; //connect to the column pinouts of the keypad
+byte colPins[COLS] = {37, 35}; //connect to the column pinouts of the keypad
 
 Keypad keypad = Keypad( makeKeymap(keys), rowPins, colPins, ROWS, COLS );
 
@@ -23,13 +23,11 @@ Keypad keypad = Keypad( makeKeymap(keys), rowPins, colPins, ROWS, COLS );
 
 // Display
 long input_number;
-int numberHexArray[20] = { 0x3F, 0x06, 0x5B, 0x4F, 0x66, 0x6D, 0x7D, 0x07, 0x7F, 0x6F, 0x79, 0x50, 0xD0, 0xDC, 0x9C, 0x00, 0x5C, 0x5E, 0xBF, 0x40 };
-//                       { '0' , '1' , '2' , '3' , '4' , '5' , '6' , '7' , '8' , '9' , 'E' , 'r' , 'r.', 'o.', 'u.', ' ' , 'o' , 'd' , '0.', '-'  };
 int input_array[8];
-int overflow_error[8] = { 13, 10, 11, 11, 16, 12, 15, 15 };
-int underflow_error[8] = { 14, 10, 11, 11, 16, 12, 15, 15 };
-int divzero_error[8] = { 17, 18, 10, 11, 11, 16, 12, 15 };
-int error[8] = { 10, 11, 11, 16, 12, 15, 15, 15 };
+String overflow_error = "ErrU.";
+String underflow_error = "ErrO.";
+String divzero_error = "ErrD0";
+String error = "Error";
 bool is_error = false;
 char temp[10];
 
@@ -57,8 +55,6 @@ void reverse() {
 
 void setup() {
   Serial.begin(9600);
-  DDRA = 0xFF;
-
   for (i = 0; i < 8; i++) {
     pinMode(i + char_1, OUTPUT);
   }
@@ -130,8 +126,8 @@ void loop() {
           break;
 
         default:
-          memcpy(input_array, error, sizeof(input_array));
-          is_error = true;
+          // memcpy(input_array, error, sizeof(input_array));
+          // is_error = true;
           break;
       }
 
@@ -155,25 +151,23 @@ void loop() {
         }
       }
 
-      Serial.println();
-
 
       //  Throwing Exceptions
-      if (input_number > 99999999) {
-        memcpy(input_array, overflow_error, sizeof(input_array));
-        is_error = true;
-      }
-      else if (input_number < -9999999) {
-        memcpy(input_array, underflow_error, sizeof(input_array));
-        is_error = true;
-      }
+      // if (input_number > 99999999) {
+      //   memcpy(input_array, overflow_error, sizeof(input_array));
+      //   is_error = true;
+      // }
+      // else if (input_number < -9999999) {
+      //   memcpy(input_array, underflow_error, sizeof(input_array));
+      //   is_error = true;
+      // }
 
-      else if (num2 == 0) {
-        if (op = '/') {
-          memcpy(input_array, divzero_error, sizeof(input_array));
-          is_error = true;
-        }
-      }
+      // else if (num2 == 0) {
+      //   if (op = '/') {
+      //     memcpy(input_array, divzero_error, sizeof(input_array));
+      //     is_error = true;
+      //   }
+      // }
     }
   }
 
@@ -183,9 +177,6 @@ void loop() {
   // Display
   if (solved) {
     for (i = 0; i < 8; i++) {
-      PORTA = numberHexArray[input_array[i]];
-      digitalWrite(i + char_1, LOW);
-      digitalWrite(i + char_1, HIGH);
     }
   }
 }
