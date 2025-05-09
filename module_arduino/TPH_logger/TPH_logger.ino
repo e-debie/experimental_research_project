@@ -15,7 +15,7 @@ See https://www.arduino.cc/en/reference/board
 RTC_DS3231 rtc;
 
 Adafruit_BME280 bme; // I2C ; // Redefine sensor name to bme in this sketch
-unsigned int delayT = 5000; // Variable for time between readings
+const unsigned int delayT = 5000; // Variable for time between readings
 float lastT , lastP , lastH ; // We will store the last recorded data
 
 // "const" means constant: this value will not change while running
@@ -176,12 +176,13 @@ void setup() {
   Serial.print(F(" removing file, status : "));
   Serial.println(rem);
   myFile = SD.open(FileName, FILE_WRITE);
-  myFile.println(F("# t (UNIX)\tt (ISO 8601)\tT (C)\tRH (%)"));
+  myFile.println(F("# t (UNIX)\tt (ISO 8601)\tT (C)\tp (Pa)\tRH (%)"));
   myFile.close();
 }
 
 
 void loop() {
+  Serial.println(F("Start of measurement"));
   sd_write(RC_read());
   sd_write("\t");
   sd_write(String(bme.readTemperature()));
@@ -189,8 +190,10 @@ void loop() {
   sd_write(String(bme.readPressure()));
   sd_write("\t");
   sd_writeln(String(bme.readHumidity()));
+  Serial.println(F("Measurement Successful."));
 
   delay(delayT);
+  
 
   display_freeram();
 }

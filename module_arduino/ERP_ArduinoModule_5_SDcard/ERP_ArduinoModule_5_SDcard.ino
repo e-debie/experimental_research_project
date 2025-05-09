@@ -12,7 +12,7 @@ See https://www.arduino.cc/en/reference/board
 // "const" means constant: this value will not change while running
 // This will allow the compiler to optimize
 const int csPin = 10;
-String FileName = "data.txt";
+String FileName = "DATA.TXT";
 File myFile;
 void setup() {
   // Open serial communications and wait for port to open :

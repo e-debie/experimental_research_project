@@ -15,7 +15,6 @@ for the ERP Arduino module
 Adafruit_BME280 bme; // I2C ; // Redefine sensor name to bme in this sketch
 unsigned int delayT ; // Variable for time between readings
 float lastT , lastP , lastH ; // We will store the last recorded data
-const char modes = "p";
 // in these variables before printing .
 
 void setup (){
@@ -57,42 +56,19 @@ void loop (){
   lastP = bme.readPressure(); // Pressure
   lastH = bme.readHumidity(); // Relative Humidity
   // Output everything over the Serial connection
-  switch (modes) {
-    case 't':
-      Serial.println(" Data from sensor :");
-      Serial.print(" Temperature :\t"); // \t is a Tab
-      Serial.println(lastT);
-      Serial.print(" Pressure :\t");
-      Serial.println(lastP);
-      Serial.print(" Humidity :\t");
-      Serial.println(lastH);
-      Serial.println();
-      break;
-
-    case 'p':
-      Serial.print(lastT);
-      Serial.print("\t"); // \t is a Tab
-      Serial.print(lastP);
-      Serial.print("\t");
-      Serial.println(lastH); // Print and new line
-      break;
-    
-    default:
-      Serial.println(" Data from sensor :");
-      Serial.print(" Temperature :\t"); // \t is a Tab
-      Serial.println(lastT);
-      Serial.print(" Pressure :\t");
-      Serial.println(lastP);
-      Serial.print(" Humidity :\t");
-      Serial.println(lastH);
-      Serial.println();
-      Serial.print(lastT);
-      Serial.print("\t"); // \t is a Tab
-      Serial.print(lastP);
-      Serial.print("\t");
-      Serial.println(lastH); // Print and new line
-      break;
-  }
+  Serial.println(" Data from sensor :");
+  Serial.print(" Temperature :\t"); // \t is a Tab
+  Serial.println(lastT);
+  Serial.print(" Pressure :\t");
+  Serial.println(lastP);
+  Serial.print(" Humidity :\t");
+  Serial.println(lastH);
+  Serial.println();
+  Serial.print(lastT);
+  Serial.print("\t"); // \t is a Tab
+  Serial.print(lastP);
+  Serial.print("\t");
+  Serial.println(lastH); // Print and new line
   // Delay time until next loop
   delay(delayT);
 }
