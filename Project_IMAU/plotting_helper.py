@@ -12,7 +12,7 @@ def fig_title():
 
         Returns:
          ---------
-         A string of the form 'Figure <count>' where count increases each time this function is called"""
+         A string of the form "Figure <count>" where count increases each time this function is called"""
     global figcounter
     figcounter += 1
     return f'Figure {figcounter}'
