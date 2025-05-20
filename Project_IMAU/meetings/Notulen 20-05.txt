@@ -1,0 +1,58 @@
+Notulen 20-05
+
+Announcements:
+Nemat wants us to start testing on Thursday. Everybody can be present on Thursday morning. 
+We shall finalise the protocol on Wednesday afternoon
+AP Eva: Mail Nemat for this
+
+Has would rather not present for a group. We shall determine at some point in future whether the presentation will therefore be performed by the other group, or whether we shall try to find an alternative assignment.
+
+
+The goal of this meeting is to create a first draft of a protocol.
+
+
+Answers to research questions (as seen in lab journal):
+1:
+	Values from roughly 1960 set the sedimentation rate to approximately 5 mm/kyr. Other studies suggest rates of approximately 3 cm/kyr several hundred thousand years ago.
+	Newer date was found, but not (yet) in readable format.
+2:
+	There is little perturbation of the ocean floor. The sample depth of ~3500 m largely excludes human perturbation.
+3: 
+	It was found that microplastic concentration is not a valid approximation for nanoplastic concentration. Microplastics arrive at the sea floor with significantly different mechanisms and are therefore unrelated.
+	Nanoplastics will only sink, for example, if they aggregate.
+4: 
+	Detritus contamination in the sample is unimportant. Firstly, Nanoplastics will aggregate on detritus. This is physical aggregation (rather than chemical), and can therefore be removed by shaking. Any detritus that is not removed by our sieve should have low boiling points and will therefore be removed for measurements. Finally, PTR-MS can identify the nanoplastics in the sample which means most other contamination will have little effect.
+5: 
+	We should try to avoid any filtering with porosity less than two orders of magnitude above 1 μm. If needed, stainless steel grids with cut off at 5 or 10 μm are preferred, with 15-20% retention.
+	We should use steel and glass tools wherever possible, as to not contaminate the sample.
+	We clean the bottles using temperature. Verify if we can get a glovebox.
+	Peroxide can be used to remove organic carbon contents, acetic acid can be used to remove inorganic carbon contents.
+	A D-shaped cutter is useful as not to incorporate plastics from the storage medium. Furthermore, to use only one half of the sample may be a good idea for insurance's sake.
+
+Protocol:
+There are four general steps:
+1) Extraction
+2) Sonication
+3) Filtration
+4)  Insertion
+
+
+We assume 5 mm/kyr. Then, we take 10 samples total. We shall spread these more finely across the top of the sample.
+We have a sample of approximately 10 cm.
+Subsample nr. | Core length (/cm)
+-------------:|:-----------------
+      0       |   3+1
+      1       |   2
+      2       |   1
+      3       |   1
+      4       |   .5
+      5       |   .5
+      6       |   .4
+      7       |   .3
+      8       |   .2
+      9       |   .1
+
+1: We use a D-scoop to remove the centre of the core sample with the given length.
+2: We sonicate the sample (AP Everyone: Ask tomorrow whether the sonicator works on just clay)
+3: We filter the sample. In this, wash the filter with water regularly to pass through as much plastic as possible (AP Everyone: Ask whether present ions are problematic)
+4: Test them in the PTR-MS
