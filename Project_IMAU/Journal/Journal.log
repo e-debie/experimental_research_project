@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.9) (format=lualatex 2025.2.24)  15 MAY 2025 16:04
+This is LuaHBTeX, Version 1.17.0 (MiKTeX 23.9) (format=lualatex 2025.2.24)  21 MAY 2025 12:43
  restricted system commands enabled.
 **Journal.tex
 (./Journal.tex
@@ -972,52 +972,52 @@ Package inputenc Warning: inputenc package ignored with utf8 based engines.
 
 )
 Class revtex4-2 Info: Unrecognized array package. Please update this document c
-lass! (Proceeding with fingers crossed.) on input line 34.
+lass! (Proceeding with fingers crossed.) on input line 35.
 
 
 Class revtex4-2 Warning: Repair the float package.
 
-Class revtex4-2 Info: cite was not loaded (OK!) on input line 34.
-Class revtex4-2 Info: mcite was not loaded (OK!) on input line 34.
-Class revtex4-2 Info: multicol was not loaded (OK!) on input line 34.
+Class revtex4-2 Info: cite was not loaded (OK!) on input line 35.
+Class revtex4-2 Info: mcite was not loaded (OK!) on input line 35.
+Class revtex4-2 Info: multicol was not loaded (OK!) on input line 35.
 (./Journal.aux)
 \openout1 = Journal.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 35.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 3
-4.
+5.
 
 (C:/Users/evade/AppData/Local/Programs/MiKTeX/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Info: Redefining \celsius on input line 34.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 34.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
+LaTeX Font Info:    ... okay on input line 35.
+LaTeX Info: Redefining \celsius on input line 35.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 35.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 34.
-Package gensymb Info: Using \Omega for \ohm on input line 34.
+LaTeX Info: Redefining \ohm on input line 35.
+Package gensymb Info: Using \Omega for \ohm on input line 35.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -1092,28 +1092,28 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 
 Package tikz-feynman Warning: Consider loading TikZ-Feynman with \usepackage[co
 mpat=1.1.0]{tikz-feynman} so that you can be warned if TikZ-Feynman changes. on
- input line 34.
+ input line 35.
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring OFF on input line 34.
+Package hyperref Info: Link coloring OFF on input line 35.
 (./Journal.out) (./Journal.out)
 \@outlinefile=\write5
 
 \openout5 = Journal.out
-Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 34.
+Class revtex4-2 Info: Taking \maketitle back from hyperref on input line 35.
 
 \openout3 = JournalNotes.bib
-LaTeX Font Info:    Trying to load font information for U+msa on input line 53.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 54.
 
 
 (C:/Users/evade/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 53.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 54.
 
 
 (C:/Users/evade/AppData/Local/Programs/MiKTeX/tex/latex/amsfonts/umsb.fd
@@ -1127,28 +1127,31 @@ LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
 Package rerunfilecheck Info: File `Journal.out' has not changed.
-(rerunfilecheck)             Checksum: 0469E70EE54E5DB00A10EE8D252052BE;485.
+(rerunfilecheck)             Checksum: 7424757C86DFEA96020C128077BBCCA8;1171.
 )
 
 Here is how much of LuaTeX's memory you used:
- 29747 strings out of 477259
+ 29772 strings out of 477259
  125016,1977958 words of node,token memory allocated
- 583 words of node memory still in use:
-   10 hlist, 3 vlist, 2 rule, 1 glue, 4 kern, 1 glyph, 12 attribute, 60 glue_spe
-c, 12 attribute_list nodes
-   avail lists: 1:9,2:280,3:249,4:52,5:326,6:52,7:5845,8:2,9:381,10:12,11:388
- 50227 multiletter control sequences out of 65536+600000
- 66 fonts using 4306383 bytes
+ 575 words of node memory still in use:
+   10 hlist, 2 vlist, 2 rule, 1 glue, 4 kern, 1 glyph, 11 attribute, 61 glue_spe
+c, 11 attribute_list nodes
+   avail lists: 1:9,2:550,3:566,4:60,5:442,6:89,7:8742,8:2,9:674,10:12,11:592
+ 50243 multiletter control sequences out of 65536+600000
+ 67 fonts using 4438071 bytes
  116i,5n,114p,515b,403s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <//?/c:/users/evade/appdata/local/programs/miktex/fonts/opentype/public/lm/lmrom
-an9-italic.otf><//?/c:/users/evade/appdata/local/programs/miktex/fonts/opentype/
-public/lm/lmroman6-regular.otf><//?/c:/users/evade/appdata/local/programs/miktex
-/fonts/opentype/public/lm/lmroman7-regular.otf><//?/c:/users/evade/appdata/local
-/programs/miktex/fonts/opentype/public/lm/lmroman10-regular.otf><//?/c:/users/ev
-ade/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman12-bold.otf>
-Output written on Journal.pdf (1 page, 24957 bytes).
+an9-regular.otf><//?/c:/users/evade/appdata/local/programs/miktex/fonts/opentype
+/public/lm/lmroman9-bold.otf><//?/c:/users/evade/appdata/local/programs/miktex/f
+onts/opentype/public/lm/lmroman9-italic.otf><//?/c:/users/evade/appdata/local/pr
+ograms/miktex/fonts/opentype/public/lm/lmroman6-regular.otf><//?/c:/users/evade/
+appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman7-regular.otf><//?
+/c:/users/evade/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman10
+-regular.otf><//?/c:/users/evade/appdata/local/programs/miktex/fonts/opentype/pu
+blic/lm/lmroman12-bold.otf>
+Output written on Journal.pdf (1 page, 42721 bytes).
 
-PDF statistics: 58 PDF objects out of 1000 (max. 8388607)
- 7 named destinations out of 1000 (max. 131072)
- 24 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 108 PDF objects out of 1000 (max. 8388607)
+ 16 named destinations out of 1000 (max. 131072)
+ 88 words of extra memory for PDF output out of 10000 (max. 100000000)
 
