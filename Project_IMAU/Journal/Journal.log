@@ -986,7 +986,6 @@ l.270 \RequirePackage{uniquecounter}[2009/12/18]
 *** (cannot \read from terminal in nonstop modes)
 
 
-
 Here is how much of LuaTeX's memory you used:
  28733 strings out of 475910
  125016,1144653 words of node,token memory allocated 533 words of node memory still in use:
