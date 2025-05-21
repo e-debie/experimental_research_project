@@ -2,7 +2,7 @@ import numpy as np
 import os
 
 bib_path = r"bibitems/"
-bibliography = r"JournalNotes.bib"
+bibliography = r"Journal.bib"
 
 destination = open(bibliography, 'w')
 
