@@ -31,6 +31,8 @@
 *.gz
 *.bib
 *.tmp
+*.bbl
+*.blg
 
 # OS generated files #
 ######################
