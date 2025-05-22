@@ -25,6 +25,14 @@
 *.log
 *.sql
 *.sqlite
+*.aux
+*.out
+*.pdf
+*.gz
+*.bib
+*.tmp
+*.bbl
+*.blg
 
 # OS generated files #
 ######################
@@ -35,5 +43,3 @@
 .Trashes
 ehthumbs.db
 Thumbs.db
-
-!Project_IMAU/Journal/Journal.tex
