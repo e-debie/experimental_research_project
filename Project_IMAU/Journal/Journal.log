@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.1 (MiKTeX 24.1) (format=lualatex 2025.5.21)  22 MAY 2025 14:38
+This is LuaHBTeX, Version 1.17.1 (MiKTeX 24.1) (format=lualatex 2025.5.21)  28 MAY 2025 11:56
  restricted system commands enabled.
 **Journal.tex
 (./Journal.tex
@@ -1170,248 +1170,287 @@ Underfull \hbox (badness 1163) in paragraph at lines 82--107
  []
 
 [2]
-Underfull \hbox (badness 2302) in paragraph at lines 125--126
+
+LaTeX Warning: Reference `tab:sample_overview' on page 3 undefined on input lin
+e 111.
+
+
+Underfull \hbox (badness 6141) in paragraph at lines 111--112
+ []\TU/lmr/m/it/10 a. Re-search prepa-ra-tion[] \TU/lmr/m/n/10 Be-fore start-ing
+
+ []
+
+
+LaTeX Warning: Reference `tab:sample_overview' on page 3 undefined on input lin
+e 116.
+
+
+LaTeX Warning: Reference `tab:sample_overview' on page 3 undefined on input lin
+e 116.
+
+<Images/Core schematic.png, id=109, 230.8625pt x 381.425pt>
+File: Images/Core schematic.png Graphic file (type png)
+<use Images/Core schematic.png>
+Package luatex.def Info: Images/Core schematic.png  used on input line 119.
+(luatex.def)             Requested size: 145.46635pt x 240.33394pt.
+[3<./Images/Core schematic.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 136--139
+ []\TU/lmr/m/it/10 c. Sub-sub-sam-ple prepa-ra-tion[] \TU/lmr/m/n/10 Next, the
+ []
+
+[4]
+Underfull \hbox (badness 2302) in paragraph at lines 145--146
  \TU/lmr/m/n/9 E., Gi-a-comino, A., La Gioia, C., Garo-
  []
 
 
-Underfull \hbox (badness 1270) in paragraph at lines 125--126
+Underfull \hbox (badness 1270) in paragraph at lines 145--146
  \TU/lmr/m/n/9 rine sed-i-ment core from the Joides Basin,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
  []\TU/lmr/m/n/9 Amer-i-can Clean-room Sys-tems. (2024,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
+Underfull \hbox (badness 10000) in paragraph at lines 148--149
  \TU/lmr/m/n/9 Septem-ber 4). \TU/lmr/m/it/9 Clean room Clas-si-fi-ca-
  []
 
 
-Underfull \hbox (badness 2126) in paragraph at lines 128--129
+Underfull \hbox (badness 2126) in paragraph at lines 148--149
  \TU/lmr/m/it/9 rooms Sys-tems. \TU/lmr/m/n/9 https://www.amer-i-can-clean-
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 131--132
+Underfull \hbox (badness 1371) in paragraph at lines 151--152
  \TU/lmr/m/it/9 Re-search, 266\TU/lmr/m/n/9 . https://doi.org/10.1016/j.wa-
  []
 
-[3]
-Underfull \hbox (badness 5231) in paragraph at lines 134--135
+
+Underfull \hbox (badness 5231) in paragraph at lines 154--155
  []\TU/lmr/m/n/9 Row-lands, E., Gal-loway, T., Cole, M.,
  []
 
 
-Underfull \hbox (badness 4429) in paragraph at lines 134--135
+Underfull \hbox (badness 4429) in paragraph at lines 154--155
  \TU/lmr/m/n/9 Peck, V. L., Po-sacka, A., Thorpe, S.,
  []
 
 
-Underfull \hbox (badness 1132) in paragraph at lines 134--135
+Underfull \hbox (badness 1132) in paragraph at lines 154--155
  \TU/lmr/m/n/9 & Manno, C. (2023). Ver-ti-cal flux of mi-
  []
 
 
-Underfull \hbox (badness 2735) in paragraph at lines 134--135
+Underfull \hbox (badness 2735) in paragraph at lines 154--155
  \TU/lmr/m/n/9 croplas-tic, a case study in the South-ern
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 134--135
+Underfull \hbox (badness 1371) in paragraph at lines 154--155
  \TU/lmr/m/it/9 letin, 193\TU/lmr/m/n/9 . https://doi.org/10.1016/j.mar-pol-
  []
 
 
-Underfull \hbox (badness 2529) in paragraph at lines 137--138
+Underfull \hbox (badness 2529) in paragraph at lines 157--158
  []\TU/lmr/m/n/9 Mateos-Cárdenas, A., Wheeler, A. J., &
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
  \TU/lmr/m/n/9 Lim, A. (2024). Mi-croplas-tics and cel-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 157--158
  \TU/lmr/m/n/9 lu-losic mi-cropar-ti-cles in North At-lantic
  []
 
 
-Underfull \hbox (badness 3199) in paragraph at lines 137--138
+Underfull \hbox (badness 3199) in paragraph at lines 157--158
  \TU/lmr/m/n/9 deep wa-ters and in the cold-water coral
  []
 
 
-Underfull \hbox (badness 6608) in paragraph at lines 137--138
+Underfull \hbox (badness 6608) in paragraph at lines 157--158
  \TU/lmr/m/n/9 Lophe-lia per-tusa. \TU/lmr/m/it/9 Ma-rine Pol-lu-tion Bul-
  []
 
 
-Underfull \hbox (badness 1371) in paragraph at lines 137--138
+Underfull \hbox (badness 1371) in paragraph at lines 157--158
  \TU/lmr/m/it/9 letin, 206\TU/lmr/m/n/9 . https://doi.org/10.1016/j.mar-pol-
  []
 
 
-Underfull \hbox (badness 1014) in paragraph at lines 140--141
+Underfull \hbox (badness 1014) in paragraph at lines 160--161
  []\TU/lmr/m/n/9 Pradel, A., Catrouil-let, C., & Gi-gault, J.
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 140--141
+Underfull \hbox (badness 1708) in paragraph at lines 160--161
  \TU/lmr/m/n/9 tics: What we know and what we need
  []
 
 
-Underfull \hbox (badness 1748) in paragraph at lines 146--147
+Underfull \hbox (badness 1748) in paragraph at lines 166--167
  \TU/lmr/m/n/9 Basin. \TU/lmr/m/it/9 J Earth Syst Sci 129, 54 \TU/lmr/m/n/9 (202
 0).
  []
 
 
-Underfull \hbox (badness 2903) in paragraph at lines 149--150
+Underfull \hbox (badness 2903) in paragraph at lines 169--170
  []\TU/lmr/m/n/9 Ohlen-dorf, C., Geb-hardt, C., Hahn, A.,
  []
 
 
-Underfull \hbox (badness 2205) in paragraph at lines 149--150
+Underfull \hbox (badness 2205) in paragraph at lines 169--170
  \TU/lmr/m/n/9 Kliem, P., & Zolitschka, B. (2011). The
  []
 
 
-Underfull \hbox (badness 6284) in paragraph at lines 149--150
+Underfull \hbox (badness 6284) in paragraph at lines 169--170
  \TU/lmr/m/it/9 Sed-i-men-tary Ge-ol-ogy, 239(1-2), 104–115\TU/lmr/m/n/9 .
  []
 
 
-Underfull \hbox (badness 1231) in paragraph at lines 152--153
+Underfull \hbox (badness 1231) in paragraph at lines 172--173
  []\TU/lmr/m/n/9 Cheng, Z., Wang, X. H., Jalón-Rojas, I.,
  []
 
 
-Underfull \hbox (badness 1348) in paragraph at lines 152--153
+Underfull \hbox (badness 1348) in paragraph at lines 172--173
  \TU/lmr/m/n/9 & Liu, Y. (2019). Re-con-struc-tion of sed-i-
  []
 
 
-Underfull \hbox (badness 1173) in paragraph at lines 152--153
+Underfull \hbox (badness 1173) in paragraph at lines 172--173
  \TU/lmr/m/n/9 men-ta-tion changes un-der an-thro-pogenic in-
  []
 
 
-Underfull \hbox (badness 1264) in paragraph at lines 152--153
+Underfull \hbox (badness 1264) in paragraph at lines 172--173
  \TU/lmr/m/n/9 a decadal chrono-log-i-cal frame-work. \TU/lmr/m/it/9 Es-tu-ar-
  []
 
 
-Underfull \hbox (badness 1708) in paragraph at lines 154--155
+Underfull \hbox (badness 1708) in paragraph at lines 174--175
  []\TU/lmr/m/n/9 Ew-ing, M., Car-pen-ter, G., Windisch, C.,
  []
 
 
-Underfull \hbox (badness 5878) in paragraph at lines 154--155
+Underfull \hbox (badness 5878) in paragraph at lines 174--175
  \TU/lmr/m/n/9 & Ew-ing, J. (1973). Sed-i-ment dis-tri-bu-
  []
 
 
-Underfull \hbox (badness 1028) in paragraph at lines 154--155
+Underfull \hbox (badness 1028) in paragraph at lines 174--175
  \TU/lmr/m/n/9 tion in the oceans: the At-lantic. \TU/lmr/m/it/9 Ge-o-log-i-
  []
 
 
-Underfull \hbox (badness 3148) in paragraph at lines 157--158
+Underfull \hbox (badness 3148) in paragraph at lines 177--178
  \TU/lmr/m/n/9 Kowalewski, M., & Scar-poni, D. (2024).
  []
 
 
-Underfull \hbox (badness 2772) in paragraph at lines 161--162
+Underfull \hbox (badness 2772) in paragraph at lines 181--182
  \TU/lmr/m/n/9 tory of plas-tic in 15 key dates. \TU/lmr/m/it/9 Car-bio-
  []
 
 
-Underfull \hbox (badness 4205) in paragraph at lines 163--164
+Underfull \hbox (badness 4205) in paragraph at lines 183--184
  \TU/lmr/m/n/9 L. (2008). Ge-o-mor-pho-log-i-cal in-ves-ti-ga-tions
  []
 
 
-Underfull \hbox (badness 4254) in paragraph at lines 163--164
+Underfull \hbox (badness 4254) in paragraph at lines 183--184
  \TU/lmr/m/n/9 of sed-i-ment traps on Lan-zarote (Ca-nary
  []
 
 
-Underfull \hbox (badness 4492) in paragraph at lines 163--164
+Underfull \hbox (badness 4492) in paragraph at lines 183--184
  \TU/lmr/m/n/9 Is-lands) as a key for the in-ter-pre-ta-tion
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 163--164
+Underfull \hbox (badness 1210) in paragraph at lines 183--184
  \TU/lmr/m/n/9 of a palaeo-cli-mate archive off NW Africa.
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 163--164
+Underfull \hbox (badness 1043) in paragraph at lines 183--184
  \TU/lmr/m/it/9 Qua-ter-nary In-ter-na-tional, 196(1–2), 44–56\TU/lmr/m/n/9
  .
  []
 
 No file Journal.bbl.
 
-Underfull \hbox (badness 1946) in paragraph at lines 166--167
+Underfull \hbox (badness 1946) in paragraph at lines 186--187
  []\TU/lmr/m/n/9 Wael-broeck, C., Lougheed, B.C., Vazquez
  []
 
 
-Underfull \hbox (badness 1320) in paragraph at lines 166--167
+Underfull \hbox (badness 1320) in paragraph at lines 186--187
  \TU/lmr/m/n/9 Riveiros, N. et al. Con-sis-tently dated At-
  []
 
 
-Underfull \hbox (badness 7667) in paragraph at lines 166--167
+Underfull \hbox (badness 7667) in paragraph at lines 186--187
  \TU/lmr/m/n/9 lantic sed-i-ment cores over the last 40
  []
 
 
-Underfull \hbox (badness 1953) in paragraph at lines 166--167
+Underfull \hbox (badness 1953) in paragraph at lines 186--187
  \TU/lmr/m/n/9 thou-sand years. \TU/lmr/m/it/9 Sci Data 6, 165 (2019)\TU/lmr/m/
 n/9 .
  []
 
-[4] (./Journal.aux)
+[5] (./Journal.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `Journal.out' has not changed.
-(rerunfilecheck)             Checksum: 5D7F7509999A05B1B565D0E8D0F9FD64;2291.
+(rerunfilecheck)             Checksum: 02046B68D8806CC2A6DE04B473BE7ECA;2470.
 )
 
 Here is how much of LuaTeX's memory you used:
- 29883 strings out of 476497
- 156277,1977958 words of node,token memory allocated
+ 29917 strings out of 476497
+ 195353,1977958 words of node,token memory allocated
  571 words of node memory still in use:
    10 hlist, 2 vlist, 2 rule, 1 glue, 4 kern, 1 glyph, 10 attribute, 61 glue_spe
 c, 10 attribute_list nodes
-   avail lists: 1:11,2:501,3:482,4:112,5:749,6:82,7:15601,8:2,9:610,10:15,11:964
-
- 51092 multiletter control sequences out of 65536+600000
- 68 fonts using 4569759 bytes
- 116i,5n,114p,863b,496s stack positions out of 10000i,1000n,20000p,200000b,200000s
+   avail lists: 1:11,2:510,3:570,4:128,5:937,6:82,7:18797,8:8,9:714,10:15,11:122
+8
+ 51117 multiletter control sequences out of 65536+600000
+ 69 fonts using 4701447 bytes
+ 116i,7n,114p,933b,486s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <//?/c:/users/gerla/appdata/local/programs/miktex/fonts/opentype/public/lm/lmrom
 an9-regular.otf><//?/c:/users/gerla/appdata/local/programs/miktex/fonts/opentype
-/public/lm/lmroman10-italic.otf><//?/c:/users/gerla/appdata/local/programs/mikte
-x/fonts/opentype/public/lm/lmroman9-bold.otf><//?/c:/users/gerla/appdata/local/p
-rograms/miktex/fonts/opentype/public/lm/lmroman9-italic.otf><//?/c:/users/gerla/
-appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman6-regular.otf><//?
-/c:/users/gerla/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman7-
-regular.otf><//?/c:/users/gerla/appdata/local/programs/miktex/fonts/opentype/pub
-lic/lm/lmroman10-regular.otf><//?/c:/users/gerla/appdata/local/programs/miktex/f
-onts/opentype/public/lm/lmroman12-bold.otf><C:/Users/gerla/AppData/Local/Program
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
-Output written on Journal.pdf (4 pages, 88413 bytes).
+/public/lm/lmroman10-bold.otf><//?/c:/users/gerla/appdata/local/programs/miktex/
+fonts/opentype/public/lm/lmroman10-italic.otf><//?/c:/users/gerla/appdata/local/
+programs/miktex/fonts/opentype/public/lm/lmroman9-bold.otf><//?/c:/users/gerla/a
+ppdata/local/programs/miktex/fonts/opentype/public/lm/lmroman9-italic.otf><//?/c
+:/users/gerla/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman6-re
+gular.otf><//?/c:/users/gerla/appdata/local/programs/miktex/fonts/opentype/publi
+c/lm/lmroman7-regular.otf><//?/c:/users/gerla/appdata/local/programs/miktex/font
+s/opentype/public/lm/lmroman10-regular.otf><//?/c:/users/gerla/appdata/local/pro
+grams/miktex/fonts/opentype/public/lm/lmroman12-bold.otf><C:/Users/gerla/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gerla
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/User
+s/gerla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><
+C:/Users/gerla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7
+.pfb><C:/Users/gerla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
+m/cmsy10.pfb>
+Output written on Journal.pdf (5 pages, 136834 bytes).
 
-PDF statistics: 176 PDF objects out of 1000 (max. 8388607)
- 40 named destinations out of 1000 (max. 131072)
- 104 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 215 PDF objects out of 1000 (max. 8388607)
+ 46 named destinations out of 1000 (max. 131072)
+ 112 words of extra memory for PDF output out of 10000 (max. 100000000)
 
