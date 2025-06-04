@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.1 (MiKTeX 24.1) (format=lualatex 2025.5.21)  4 JUN 2025 11:10
+This is LuaHBTeX, Version 1.17.1 (MiKTeX 24.1) (format=lualatex 2025.5.21)  4 JUN 2025 11:23
  restricted system commands enabled.
 **Journal.tex
 (./Journal.tex
@@ -1170,35 +1170,17 @@ Underfull \hbox (badness 1163) in paragraph at lines 82--107
  []
 
 [2]
-
-LaTeX Warning: Reference `tab:sample_overview' on page 3 undefined on input lin
-e 111.
-
-
-Underfull \hbox (badness 6141) in paragraph at lines 111--112
- []\TU/lmr/m/it/10 a. Re-search prepa-ra-tion[] \TU/lmr/m/n/10 Be-fore start-ing
-
+Underfull \hbox (badness 2310) in paragraph at lines 111--112
+ []\TU/lmr/m/it/10 Re-search prepa-ra-tion[] \TU/lmr/m/n/10 Be-fore start-ing th
+e
  []
 
-
-LaTeX Warning: Reference `tab:sample_overview' on page 3 undefined on input lin
-e 116.
-
-
-LaTeX Warning: Reference `tab:sample_overview' on page 3 undefined on input lin
-e 116.
-
-<Images/Core schematic.png, id=109, 230.8625pt x 381.425pt>
+<Images/Core schematic.png, id=112, 230.8625pt x 381.425pt>
 File: Images/Core schematic.png Graphic file (type png)
 <use Images/Core schematic.png>
 Package luatex.def Info: Images/Core schematic.png  used on input line 119.
 (luatex.def)             Requested size: 145.46635pt x 240.33394pt.
-[3<./Images/Core schematic.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 154--157
- []\TU/lmr/m/it/10 c. Sub-sub-sam-ple prepa-ra-tion[] \TU/lmr/m/n/10 Next, the
- []
-
-[4]
+[3<./Images/Core schematic.png>] [4]
 
 LaTeX Warning: Command \~ invalid in math mode on input line 158.
 
@@ -1418,48 +1400,43 @@ n/9 .
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `Journal.out' has not changed.
 (rerunfilecheck)             Checksum: FE6955E6E2695CB0E8BF139C6898A4D0;2470.
 )
 
 Here is how much of LuaTeX's memory you used:
- 29943 strings out of 476497
+ 29941 strings out of 476497
  125016,1977958 words of node,token memory allocated
  613 words of node memory still in use:
    10 hlist, 3 vlist, 4 rule, 2 glue, 4 kern, 1 glyph, 12 attribute, 61 glue_spe
 c, 12 attribute_list nodes
-   avail lists: 1:9,2:801,3:407,4:80,5:689,6:78,7:12642,8:8,9:840,10:15,11:921
- 51137 multiletter control sequences out of 65536+600000
- 69 fonts using 4701447 bytes
- 116i,11n,114p,933b,536s stack positions out of 10000i,1000n,20000p,200000b,200000s
+   avail lists: 1:9,2:799,3:407,4:80,5:689,6:78,7:12642,8:8,9:840,10:15,11:921
+ 51135 multiletter control sequences out of 65536+600000
+ 68 fonts using 4569759 bytes
+ 116i,11n,114p,942b,536s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <//?/c:/users/gerla/appdata/local/programs/miktex/fonts/opentype/public/lm/lmrom
 an9-regular.otf><//?/c:/users/gerla/appdata/local/programs/miktex/fonts/opentype
-/public/lm/lmroman10-bold.otf><//?/c:/users/gerla/appdata/local/programs/miktex/
-fonts/opentype/public/lm/lmroman10-italic.otf><//?/c:/users/gerla/appdata/local/
-programs/miktex/fonts/opentype/public/lm/lmroman9-bold.otf><//?/c:/users/gerla/a
-ppdata/local/programs/miktex/fonts/opentype/public/lm/lmroman9-italic.otf><//?/c
-:/users/gerla/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman6-re
-gular.otf><//?/c:/users/gerla/appdata/local/programs/miktex/fonts/opentype/publi
-c/lm/lmroman7-regular.otf><//?/c:/users/gerla/appdata/local/programs/miktex/font
-s/opentype/public/lm/lmroman10-regular.otf><//?/c:/users/gerla/appdata/local/pro
-grams/miktex/fonts/opentype/public/lm/lmroman12-bold.otf><C:/Users/gerla/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx6.pfb><C:/Users/gerla/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users
-/gerla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><
-C:/Users/gerla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi
-7.pfb><C:/Users/gerla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
-cm/cmmi9.pfb><C:/Users/gerla/AppData/Local/Programs/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmr10.pfb><C:/Users/gerla/AppData/Local/Programs/MiKTeX/fonts/type1/pu
-blic/amsfonts/cm/cmr7.pfb><C:/Users/gerla/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmr9.pfb><C:/Users/gerla/AppData/Local/Programs/MiKTeX/fo
-nts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Journal.pdf (6 pages, 178953 bytes).
+/public/lm/lmroman10-italic.otf><//?/c:/users/gerla/appdata/local/programs/mikte
+x/fonts/opentype/public/lm/lmroman9-bold.otf><//?/c:/users/gerla/appdata/local/p
+rograms/miktex/fonts/opentype/public/lm/lmroman9-italic.otf><//?/c:/users/gerla/
+appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman6-regular.otf><//?
+/c:/users/gerla/appdata/local/programs/miktex/fonts/opentype/public/lm/lmroman7-
+regular.otf><//?/c:/users/gerla/appdata/local/programs/miktex/fonts/opentype/pub
+lic/lm/lmroman10-regular.otf><//?/c:/users/gerla/appdata/local/programs/miktex/f
+onts/opentype/public/lm/lmroman12-bold.otf><C:/Users/gerla/AppData/Local/Program
+s/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx6.pfb><C:/Users/gerla/AppData/Local/
+Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:/Users/gerla/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/gerla
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/User
+s/gerla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><
+C:/Users/gerla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr1
+0.pfb><C:/Users/gerla/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
+cm/cmr7.pfb><C:/Users/gerla/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
+fonts/cm/cmr9.pfb><C:/Users/gerla/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb>
+Output written on Journal.pdf (6 pages, 177814 bytes).
 
-PDF statistics: 240 PDF objects out of 1000 (max. 8388607)
+PDF statistics: 239 PDF objects out of 1000 (max. 8388607)
  52 named destinations out of 1000 (max. 131072)
  112 words of extra memory for PDF output out of 10000 (max. 100000000)
 
