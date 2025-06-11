@@ -4,7 +4,7 @@ import pandas as pd
 from matplotlib import pyplot as plt
 
 
-filepath_read = r"D:\Sediment D,B\\"
+filepath_read = r"D:\all_sediments\\"
 
 
 def file_list():
@@ -44,12 +44,12 @@ def read_file(fname, plot_axis=None, plot_index = None):
 
 
 def get_times(data):
-    times = pd.array(data.iloc[:, 0])
+    times = pd.array(data.iloc[:, 0])[1:]
 
     return times
 
 def get_mzs(data):
-    total_mzs = pd.array(data.iloc[0])
+    total_mzs = pd.array(data.iloc[0])[1:]
 
     return total_mzs
 
@@ -57,5 +57,6 @@ def get_mzs(data):
 if __name__=='__main__':
     files = file_list()
     r_data = read_file(files[0])
+    get_mzs(r_data)
 
     plt.show()
