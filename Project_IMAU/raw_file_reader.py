@@ -1,0 +1,56 @@
+import os
+import numpy as np
+import pandas as pd
+from matplotlib import pyplot as plt
+
+
+filepath_read = r"D:\Sediment D,B\\"
+
+
+def file_list():
+    global filepath_read
+    outputs = []
+    filenames = os.listdir(filepath_read)
+    for i in filenames:
+        if i[-4:] == '.csv':
+            outputs.append(i)
+
+    return outputs
+
+
+def read_file(fname, plot_axis=None, plot_index = None):
+    global filepath_read
+    data = pd.read_csv(filepath_read + fname)
+
+    if plot_axis is not None:
+        match plot_axis:
+            case 0:
+                total_mzs = pd.array(data.iloc[0])
+                concs = pd.array(data.iloc[plot_index])
+
+                plt.plot(total_mzs, concs, '-')
+
+            case 1:
+                total_columns = data.columns
+
+                times = pd.array(data.iloc[:,0])
+                concs = pd.array(data.iloc[:,plot_index])
+
+                plt.plot(times, concs, '-')
+
+    return data
+
+
+def get_time(data):
+    total_columns = data.columns
+
+    times = pd.array(data.iloc[:, 0])
+
+    return times
+
+
+if __name__=='__main__':
+    files = file_list()
+    r_data = read_file(files[0])
+    
+    plt.show()
