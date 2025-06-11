@@ -28,7 +28,7 @@ if __name__=='__main__':
     files = rfr.file_list()
     tot_time = []
     tot_data = []
-    for fname in files[:5]:
+    for fname in files[:10]:
         r_data = rfr.read_file(fname)
         times = rfr.get_times(r_data)
         col = r_data.iloc[:,169]
@@ -40,23 +40,16 @@ if __name__=='__main__':
     tot_time = np.asarray(tot_time)
     print(f'm/z = {rfr.get_mzs(r_data)[169]}')
 
-    tot_ddata = derivative(tot_data, tot_time)
+    peaks, peak_details = sp.signal.find_peaks(tot_data, prominence=.5, height=.2, width=2, rel_height=.8)
+    print(peak_details)
 
-    left_peaks, left_peak_details = sp.signal.find_peaks(tot_ddata, prominence=100, height=1e5)
-    print(left_peaks)
 
-    right_peaks, right_peak_details = sp.signal.find_peaks(-tot_ddata, prominence=100, height=1e5)
-    print(right_peaks)
-
-    fig, ax1 = plt.subplots()
-    ax2 = ax1.twinx()
-    ax1.plot(tot_time, tot_data, '-')
-    ax2.plot(tot_time, tot_ddata, 'r--')
-    for i,peak in enumerate(left_peaks):
-        plt.vlines(tot_time[peak], ymin=0, ymax=tot_data[peak], colors='#B00B69')
-    for peak in right_peaks:
-        plt.vlines(tot_time[peak], ymin=tot_data[peak], ymax=0, colors='#4FF496')
-        # plt.fill_betweenx(y=np.linspace(0, tot_data[peak], 1000),
-        #                   x1=tot_time[int(peak-np.floor(peak_details['widths'][i]/2))],
-        #                   x2=tot_time[int(peak+np.floor(peak_details['widths'][i]/2))])
+    fig, ax = plt.subplots()
+    ax.plot(tot_time, tot_data, '-')
+    for i,peak in enumerate(peaks):
+        ax.vlines(tot_time[peak], ymin=0, ymax=tot_data[peak], colors='#B00B69')
+        ax.fill_betweenx(y=np.linspace(0, tot_data[peak], 1000),
+                         x1=tot_time[round(peak_details['left_ips'][i])],
+                         x2=tot_time[round(peak_details['right_ips'][i])],
+                         alpha=0.5)
     plt.show()
