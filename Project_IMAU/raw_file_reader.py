@@ -22,35 +22,40 @@ def read_file(fname, plot_axis=None, plot_index = None):
     global filepath_read
     data = pd.read_csv(filepath_read + fname)
 
-    if plot_axis is not None:
-        match plot_axis:
-            case 0:
-                total_mzs = pd.array(data.iloc[0])
-                concs = pd.array(data.iloc[plot_index])
+    match plot_axis:
+        case 0:
+            total_mzs = pd.array(data.iloc[0])
+            concs = pd.array(data.iloc[plot_index])
 
-                plt.plot(total_mzs, concs, '-')
+            plt.plot(total_mzs, concs, '-')
 
-            case 1:
-                total_columns = data.columns
+        case 1:
+            total_columns = data.columns
 
-                times = pd.array(data.iloc[:,0])
-                concs = pd.array(data.iloc[:,plot_index])
+            times = pd.array(data.iloc[:,0])
+            concs = pd.array(data.iloc[:,plot_index])
 
-                plt.plot(times, concs, '-')
+            plt.plot(times, concs, '-')
+
+        case _:
+            pass
 
     return data
 
 
-def get_time(data):
-    total_columns = data.columns
-
+def get_times(data):
     times = pd.array(data.iloc[:, 0])
 
     return times
+
+def get_mzs(data):
+    total_mzs = pd.array(data.iloc[0])
+
+    return total_mzs
 
 
 if __name__=='__main__':
     files = file_list()
     r_data = read_file(files[0])
-    
+
     plt.show()

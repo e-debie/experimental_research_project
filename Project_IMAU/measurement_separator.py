@@ -1,9 +1,62 @@
 import numpy as np
 import pandas as pd
+from matplotlib import pyplot as plt
+import raw_file_reader as rfr
+import scipy as sp
 
-def main()
+
+'''The idea was to use the peaks in the derivative to find the start and end points of each measurement, 
+and to trim the peaks out from there. This does not seem to work.
+Scipy peak-finding algorithms cannot find the asymmetrical peak widths as far as I know.
+I'll look into it further when I have the time.'''
 
 
+def derivative(arr, times):
+    dt = np.nanmean(np.diff(times))
+    out = np.zeros(arr.shape)
+    arr = np.nan_to_num(arr, nan=0, posinf=0, neginf=0)
+    out[2:-2] = (arr[:-4] - 8*arr[1:-3] + 8*arr[3:-1] - arr[4:]) / (12*dt)
+    out[1] = (arr[2]-arr[0]) / (2*dt)
+    out[-2] = (arr[-1]-arr[-3]) / (2*dt)
+    arr[0] = (arr[1] - arr[0]) / dt
+    arr[-1] = (arr[-1] - arr[-2]) / dt
+
+    return out
 
 
 if __name__=='__main__':
+    files = rfr.file_list()
+    tot_time = []
+    tot_data = []
+    for fname in files[:5]:
+        r_data = rfr.read_file(fname)
+        times = rfr.get_times(r_data)
+        col = r_data.iloc[:,169]
+        for i,j in zip(col,times):
+            tot_time.append(j)
+            tot_data.append(i)
+
+    tot_data = np.asarray(tot_data)
+    tot_time = np.asarray(tot_time)
+    print(f'm/z = {rfr.get_mzs(r_data)[169]}')
+
+    tot_ddata = derivative(tot_data, tot_time)
+
+    left_peaks, left_peak_details = sp.signal.find_peaks(tot_ddata, prominence=100, height=1e5)
+    print(left_peaks)
+
+    right_peaks, right_peak_details = sp.signal.find_peaks(-tot_ddata, prominence=100, height=1e5)
+    print(right_peaks)
+
+    fig, ax1 = plt.subplots()
+    ax2 = ax1.twinx()
+    ax1.plot(tot_time, tot_data, '-')
+    ax2.plot(tot_time, tot_ddata, 'r--')
+    for i,peak in enumerate(left_peaks):
+        plt.vlines(tot_time[peak], ymin=0, ymax=tot_data[peak], colors='#B00B69')
+    for peak in right_peaks:
+        plt.vlines(tot_time[peak], ymin=tot_data[peak], ymax=0, colors='#4FF496')
+        # plt.fill_betweenx(y=np.linspace(0, tot_data[peak], 1000),
+        #                   x1=tot_time[int(peak-np.floor(peak_details['widths'][i]/2))],
+        #                   x2=tot_time[int(peak+np.floor(peak_details['widths'][i]/2))])
+    plt.show()
