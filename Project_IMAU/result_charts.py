@@ -18,8 +18,15 @@ D = data['D']
 production_data = data['WorldProduction']
 
 rows = [' ', '  ', '   ', '    ']
-values = np.asarray([A,C,D,B])
+masses = np.asarray([14.0632, 16.5189, 14.2263, 22.3569])
+volumes = [50 for i in masses]
+
+values = np.zeros((4,len(plastics_order)))
+for i,(j,k,l) in enumerate(zip(np.vstack((A,C,D,B)), masses, volumes)):
+    values[i] = j*l/k
 values_cum = values.cumsum(axis=1)
+
+print(values)
 
 colours = plth.colours(len(plastics_order), colourmap='Set2')
 
@@ -31,17 +38,21 @@ ax.set_xlim(0, np.sum(values, axis=1).max())
 for i,(color,colname) in enumerate(zip(colours, plastics_order)):
     widths = values[:,i]
     starts = values_cum[:,i] - widths
-    rects = ax.barh(rows, widths, left=starts, height=0.5,
+    rects = ax.barh(rows, widths, left=starts, height=0.8,
             label=colname, color=color)
+    plth.start(20)
+    ax.bar_label(rects, fmt='{:.2e}', label_type='center', rotation='vertical')
+plth.start(24)
+
 plt.legend()
-plt.title('Plastic distribution across depth')
+plt.title('Plastic distribution across depth (ng/g)')
 
 fig_pie, ax_pie = plt.subplots()
 ax_pie.pie(A, labels=plastics_order, colors=colours)
-plt.title('Plastic fractionation in surface')
+plt.suptitle('Plastic fractionation in surface')
 
 fig_prod, ax_prod = plt.subplots()
 ax_prod.pie(production_data, labels=plastics_order, colors=colours)
-plt.title('Relevant plastic fractionation in production [BRON]')
+plt.suptitle('Relevant plastic fractionation in production [5]')
 
 plt.show()
