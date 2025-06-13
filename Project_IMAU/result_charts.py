@@ -41,7 +41,7 @@ for i,(color,colname) in enumerate(zip(colours, plastics_order)):
     rects = ax.barh(rows, widths, left=starts, height=0.8,
             label=colname, color=color)
     plth.start(20)
-    ax.bar_label(rects, fmt='{:.2e}', label_type='center', rotation='vertical')
+    ax.bar_label(rects, fmt='{:.1f}', label_type='center', rotation='vertical')
 plth.start(24)
 
 plt.legend()
