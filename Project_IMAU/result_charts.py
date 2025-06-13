@@ -38,7 +38,7 @@ plt.title('Plastic distribution across depth')
 
 fig_pie, ax_pie = plt.subplots()
 ax_pie.pie(A, labels=plastics_order, colors=colours)
-plt.title('Plastic fractionation in A')
+plt.title('Plastic fractionation in surface')
 
 fig_prod, ax_prod = plt.subplots()
 ax_prod.pie(production_data, labels=plastics_order, colors=colours)

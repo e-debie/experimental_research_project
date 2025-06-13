@@ -1,11 +1,11 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.7.17 Chrome/128.0.6613.36 Electron/32.0.1 Safari/537.36" version="24.7.17">
   <diagram name="Page-1" id="7e0a89b8-554c-2b80-1dc8-d5c74ca68de4">
-    <mxGraphModel dx="2206" dy="1286" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="vOTTCUBnA6drT-C3Ion7-1" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="420" y="20" width="690" height="1110" as="geometry" />
+        <mxCell id="vOTTCUBnA6drT-C3Ion7-1" value="" style="group" parent="1" vertex="1" connectable="0">
+          <mxGeometry x="230" y="20" width="690" height="1110" as="geometry" />
         </mxCell>
         <mxCell id="Lpq-oLVQtSHf2gSnYv1L-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="vOTTCUBnA6drT-C3Ion7-1" source="Lpq-oLVQtSHf2gSnYv1L-1" target="Lpq-oLVQtSHf2gSnYv1L-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -49,20 +49,8 @@
         <mxCell id="Lpq-oLVQtSHf2gSnYv1L-15" value="" style="labelPosition=right;align=left;strokeWidth=1;shape=mxgraph.mockup.markup.curlyBrace;html=1;shadow=0;dashed=0;strokeColor=#999999;direction=north;flipH=1;" parent="vOTTCUBnA6drT-C3Ion7-1" vertex="1">
           <mxGeometry x="420" y="315" width="60" height="165" as="geometry" />
         </mxCell>
-        <mxCell id="Lpq-oLVQtSHf2gSnYv1L-16" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Beaker B&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="vOTTCUBnA6drT-C3Ion7-1" vertex="1">
-          <mxGeometry x="500" y="955" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Lpq-oLVQtSHf2gSnYv1L-17" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Beaker D&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="vOTTCUBnA6drT-C3Ion7-1" vertex="1">
-          <mxGeometry x="500" y="730" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Lpq-oLVQtSHf2gSnYv1L-18" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Beaker C&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="vOTTCUBnA6drT-C3Ion7-1" vertex="1">
-          <mxGeometry x="500" y="550" width="120" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="Lpq-oLVQtSHf2gSnYv1L-19" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Beaker A&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="vOTTCUBnA6drT-C3Ion7-1" vertex="1">
-          <mxGeometry x="500" y="377.5" width="120" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="Lpq-oLVQtSHf2gSnYv1L-23" value="&lt;font style=&quot;font-size: 24px;&quot;&gt;Ocean floor level&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="vOTTCUBnA6drT-C3Ion7-1" vertex="1">
-          <mxGeometry x="-20" y="255" width="200" height="90" as="geometry" />
+          <mxGeometry x="560" y="255" width="200" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
