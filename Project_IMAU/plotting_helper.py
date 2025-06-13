@@ -3,6 +3,10 @@ from matplotlib import pyplot as plt
 import matplotlib as mpl
 
 
+def start(font_size):
+    mpl.rcParams.update({'font.size': font_size})  # 18 for full-pagewidth images, 24 for single-column images.
+
+
 figcounter = 0
 def fig_title():
     """Function that returns the numbered title of a figure.
