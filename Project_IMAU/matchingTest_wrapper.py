@@ -4,7 +4,7 @@ import os
 
 library_files = ["massLibrPE.csv", "massLibrPET.csv", "massLibrPP.csv", "massLibrPS.csv", "massLibrPVC.csv"]
 plastics = ["PE","PET","PP","PS","PVC"]
-sample_files = ['data_files/'+i for i in os.listdir('data_files\\')]
+sample_files = ['zeroed_files/c0_fin.csv']
 
 results = {}
 for i in sample_files:
@@ -12,9 +12,12 @@ for i in sample_files:
     for j in library_files:
         results[i].append(mt.main(libFile=j,sampleFile=i))
 
-print(results)
 
 fig, axs = plt.subplots(2, 2)
 for i,j in enumerate(results):
-    axs[i//2,i%2].pie(results[j], labels=plastics)
+    axs[i//2,i%2].pie(results[j], labels=plastics, autopct='%1.1f%%')
 plt.show()
+
+def get_results():
+    global results
+    return results

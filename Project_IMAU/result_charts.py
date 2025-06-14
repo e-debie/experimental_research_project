@@ -14,19 +14,18 @@ A = data['A']
 B = data['B']
 C = data['C']
 D = data['D']
+own_test = data['OT']
 
 production_data = data['WorldProduction']
 
-rows = [' ', '  ', '   ', '    ']
-masses = np.asarray([14.0632, 16.5189, 14.2263, 22.3569])
+rows = [' ', '  ', '   ', '    ', '     ']
+masses = np.asarray([14.0632, 16.5189, 14.2263, 22.3569, 14.2263])
 volumes = [50 for i in masses]
 
-values = np.zeros((4,len(plastics_order)))
-for i,(j,k,l) in enumerate(zip(np.vstack((A,C,D,B)), masses, volumes)):
+values = np.zeros((5,len(plastics_order)))
+for i,(j,k,l) in enumerate(zip(np.vstack((A,C,D,B,own_test)), masses, volumes)):
     values[i] = j*l/k
 values_cum = values.cumsum(axis=1)
-
-print(values)
 
 colours = plth.colours(len(plastics_order), colourmap='Set2')
 
@@ -47,12 +46,22 @@ plth.start(24)
 plt.legend()
 plt.title('Plastic distribution across depth (ng/g)')
 
-fig_pie, ax_pie = plt.subplots()
-ax_pie.pie(A, labels=plastics_order, colors=colours)
+figpies, axpies = plt.subplots(3,2)
+
+axpies[0,0].pie(A, labels=plastics_order, colors=colours, autopct='%1.1f%%')
 plt.suptitle('Plastic fractionation in surface')
+
+axpies[0,1].pie(B, labels=plastics_order, colors=colours, autopct='%1.1f%%')
+
+axpies[1,0].pie(C, labels=plastics_order, colors=colours, autopct='%1.1f%%')
+
+axpies[2,1].pie(D, labels=plastics_order, colors=colours, autopct='%1.1f%%')
+
+axpies[1,1].pie(own_test, labels=plastics_order, colors=colours, autopct='%1.1f%%')
+axpies[1,1].set_title('Own calculation')
 
 fig_prod, ax_prod = plt.subplots()
 ax_prod.pie(production_data, labels=plastics_order, colors=colours)
-plt.suptitle('Relevant plastic fractionation in production [5]')
+plt.suptitle('Relevant plastic fractionation in production [4]')
 
 plt.show()

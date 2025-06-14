@@ -9,7 +9,7 @@ def main(mz_index, plot=False):
     files = rfr.file_list()
     tot_time = []
     tot_data = []
-    for fname in files:
+    for fname in files[:5]:
         r_data = rfr.read_file(fname)
         times = rfr.get_times(r_data)
         col = r_data.iloc[:,mz_index]
@@ -33,6 +33,9 @@ def main(mz_index, plot=False):
                              x1=tot_time[round(peak_details['left_ips'][i])],
                              x2=tot_time[round(peak_details['right_ips'][i])],
                              alpha=0.5)
+            ax.set_ylim(-.5,5)
+            plt.xlabel('Time')
+            plt.ylabel('Intensity')
 
     output_time = []
     output_data = []
@@ -57,8 +60,8 @@ if __name__=='__main__':
     all_left_times = []
     all_right_times = []
     all_data = []
-    for i in range(len(all_mzs)):
-        current_times, current_data, current_left_times, current_right_times = main(i)
+    for i in range(168,169):
+        current_times, current_data, current_left_times, current_right_times = main(i, plot=True)
         all_times.append(current_times)
         all_data.append(current_data)
         all_left_times.append(current_left_times)
